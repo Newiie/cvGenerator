@@ -1,0 +1,103 @@
+#paper-container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    height: 100vh;
+    grid-area: paper-container;
+    background-color: var(--bg-cv-paper);
+    top: 0;
+}
+
+#paperItem {    
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    grid-template-rows: 0.75fr 2.5fr;
+    padding: 1rem;
+    gap: 2rem;
+    width: 600px;
+    height: 100vh;
+
+    box-sizing: border-box;
+    background-color: var(--clr-neutral-900);
+    box-shadow: 0px 0 10px var(--clr-border),
+                0 0px 10px var(--clr-border);
+}
+
+.paperBelow > * {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 60em) {
+    #paper-container {
+        display: none;
+    }
+    
+}
+
+.CVCI-Item {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    overflow: scroll;
+}
+
+
+.cv-contact-info {
+    display: grid;
+    padding-top: 1rem;
+}
+
+.cv-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li::marker{
+    color: var(--clr-border)
+}
+
+.cv-educ-content {
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.cveb-title {
+    list-style: circle;
+    font-size: 1rem;
+}
+
+.cv-date {
+    text-align: center;
+}
+
+.cvBI-self {
+    margin-top: 0.5rem;
+}
+/*PAPER UTILTIES */
+ul {
+    font-weight: bold;
+}
+
+ul li {
+    font-family: var(--ff-raleway);
+    font-weight: 200;
+    font-size: 14px;
+    list-style: disc;
+}
+
+.full-name-BI {
+    font-size: 2rem;
+}
+
+.prof-title-BI {
+    font-size: 1.5rem;
+}
+.cv-text {
+    font-size: 10.25px;
+}
+
+.cv-uli {
+    padding-left: 1rem;
+}
+
+

@@ -1,0 +1,13 @@
+.addtnl-input-container {
+    display: flex;
+    width: auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.addtnl-input-container .addtnl-input {
+    border: 2.5px solid var(--outline-accent);
+    border-radius: 6px;
+    padding: 0.3rem 0.5rem;
+    outline: none;
+}   

@@ -1,0 +1,72 @@
+#App {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 0px;
+    grid-template-areas: "cv paper-container"
+                        "toggle toggle";
+    position: relative;
+}
+
+@media (max-width: 60em) {
+    #App {
+        display: flex;
+    }
+
+    #root, #cv{
+        width: 100%;
+    }
+
+    .btn-prev-container {
+        position: sticky;
+    }
+}   
+
+.toggle-preview-btn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: var(--bg-tp-btn);
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.btn-prev-container {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    grid-area: toggle;
+}
+
+.errorMessage {
+    padding: 0.5rem 1rem;
+    color: var(--clr-error);
+    border-radius: 0.5rem;
+    border: 2px solid var(--clr-error)
+}
+
+
+/* Education Background CSS */
+
+.awardsContainer {
+    display: flex;
+    gap: 1rem;
+    padding-left: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.awardsContainer li {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    list-style: none;
+    color: var(--clr-neutral-900);
+    background-color: var(--clr-paper-blue);
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}

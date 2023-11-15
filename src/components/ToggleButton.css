@@ -1,0 +1,23 @@
+.toggle-btn {
+    display: flex;
+    align-items: center;
+    border-radius: 1.3rem;
+    height: 1.3rem;
+    padding: 0.2rem;
+    width: 2.8rem;
+    background-color: var(--clr-toggle-btn);
+    opacity: 0.7;
+    position: relative;
+}
+
+.toggle-circle {
+    height: 1.2rem;
+    margin: 0 1px;
+    aspect-ratio: 1;
+    background-color: var(--clr-neutral-900);
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    cursor: pointer;
+    transition: left 200ms ease-in-out;
+}

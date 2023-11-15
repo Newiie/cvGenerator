@@ -1,0 +1,85 @@
+.form-header {
+    font-size: 2rem;
+    border-bottom: 2px solid var(--clr-text);
+}
+
+form {
+    width: 80%; /* Default width for larger screens */
+    max-width: 50rem;
+    margin: 3rem auto 0 auto;
+}   
+
+.formLabel {
+    flex-direction: column;
+    padding: 2rem 0 0.5rem 0;
+    position: relative;
+    margin: 1rem 0;
+}
+
+
+.formToggleBtn {
+    gap: 1rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.formToggleBtn, 
+.formLabel {
+    display: flex;
+    border: 2px solid var(--clr-border);
+    border-radius: 6px;
+}
+
+.formLabel:focus-within {
+    border: 2px solid var(--outline-accent) !important;
+}
+
+form:focus-within h1 {
+    color: var(--outline-accent);
+    border-bottom: 2px solid var(--outline-accent);
+}
+/* LABEL */
+.formLabel input,   
+.formLabel textarea {
+    margin: 0 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--bg-background);
+}
+
+.formLabel textarea {
+    height: 10rem;
+    resize: none;
+}
+
+.formLabel span {
+    position: absolute;
+    background-color: var(--bg-background);
+    top: -19px;
+    left: 10px;
+    padding: 0.5rem;
+}
+
+.form-body > * {
+margin-top: 2rem;
+}
+
+.input-textarea {
+    height: 5rem;
+}
+
+
+/* BUTTON */
+.buttonSubmit {
+    color: var(--clr-button);
+    border: 2.5px solid var(--clr-button);
+    padding: 0.5rem 1rem;
+    background-color: var(--bg-background);
+    border-radius: 6px;
+    transition: 200ms ease-in;
+}
+
+.buttonSubmit:hover {
+    color: var(--bg-background);
+    background-color: var(--clr-button);
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.hero-header {
+    display: flex;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-size: 36px;
+    background-image: linear-gradient(to right, #5c10ef, #ef10a3);
+    background-clip: text;
+    -webkit-background-clip: text; /* For compatibility with some browsers */
+    color: transparent;
+    font-family: var(--m-ff);
+    font-weight: 500;
+}
+
+.hero-header-container {
+    width: 80%;
+    max-width: 50rem;
+    margin: auto;
+}
