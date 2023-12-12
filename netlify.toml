@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+    [build.processing]
+    skip_processing = true
+  [build.processing.css]
+    bundle = true
+    minify = false
+  [build.processing.js]
+    bundle = true
+    minify = false
+  [build.processing.html]
+    pretty_urls = true
+  [build.processing.images]
+    compress = true
+[context.production.environment]
+  NODE_ENV = "production"
+  # Add other environment variables specific to your project
+
+[context.deploy-preview]
+  command = "npm run build"
+  publish = "build"
