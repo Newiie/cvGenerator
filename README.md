@@ -1,7 +1,5 @@
 # CV Generator App
 
-![CV Generator](cv-generator-screenshot.png)
-
 ## Description
 
 The CV Generator App is a web application built with React that allows users to easily create their Curriculum Vitae (CV) by filling out a simple form. Whether you're a job seeker, student, or professional, this app provides a convenient way to generate and customize your CV according to your preferences.
