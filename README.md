@@ -32,13 +32,13 @@ npm install
 npm run dev
 ```
 ## Technologies Used
-React
-HTML5
-CSS3
-JavaScript
+**React**
+**HTML5**
+**CSS3**
+**JavaScript**
 
 
 ## Acknowledgments
-React
-Pexels (for images)
-Font Awesome (for icons)
+**React**
+**Pexels (for images)**
+**Font Awesome (for icons)**
