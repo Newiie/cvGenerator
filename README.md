@@ -30,7 +30,7 @@ git clone https://github.com/Newiie/cvGenerator.git
 cd cv-generator-app
 npm install
 npm run dev
-
+```
 ## Technologies Used
 React
 HTML5
